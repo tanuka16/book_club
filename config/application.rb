@@ -9,7 +9,7 @@ Bundler.require(*Rails.groups)
 module BookMark
   class Application < Rails::Application
     config.active_job.queue_adapter = :sidekiq
-    config.application_name = 'gem update rails'
+    config.application_name = 'Book Mark'
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.0
 
